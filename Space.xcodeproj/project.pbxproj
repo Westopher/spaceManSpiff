@@ -12,7 +12,7 @@
 		3D0C7D741F3386F2005E4CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C7D731F3386F2005E4CB6 /* Assets.xcassets */; };
 		3D0C7D771F3386F2005E4CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C7D751F3386F2005E4CB6 /* LaunchScreen.storyboard */; };
 		3D0C7D811F338889005E4CB6 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C7D801F338889005E4CB6 /* ImageViewController.swift */; };
-		3D0C7D831F338D5E005E4CB6 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C7D821F338D5E005E4CB6 /* DemoURL.swift */; };
+		3D0C7D851F339454005E4CB6 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C7D841F339454005E4CB6 /* DemoURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		3D0C7D761F3386F2005E4CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D0C7D781F3386F2005E4CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D0C7D801F338889005E4CB6 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		3D0C7D821F338D5E005E4CB6 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		3D0C7D841F339454005E4CB6 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				3D0C7D801F338889005E4CB6 /* ImageViewController.swift */,
 				3D0C7D701F3386F2005E4CB6 /* Main.storyboard */,
-				3D0C7D821F338D5E005E4CB6 /* DemoURL.swift */,
+				3D0C7D841F339454005E4CB6 /* DemoURL.swift */,
 				3D0C7D781F3386F2005E4CB6 /* Info.plist */,
 				3D0C7D7F1F33873B005E4CB6 /* Supporting Files */,
 			);
@@ -149,7 +149,7 @@
 			files = (
 				3D0C7D811F338889005E4CB6 /* ImageViewController.swift in Sources */,
 				3D0C7D6D1F3386F2005E4CB6 /* AppDelegate.swift in Sources */,
-				3D0C7D831F338D5E005E4CB6 /* DemoURL.swift in Sources */,
+				3D0C7D851F339454005E4CB6 /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

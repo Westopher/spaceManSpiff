@@ -13,9 +13,8 @@ class ImageViewController: UIViewController {
     var imageURL: URL? {
         didSet {
             image = nil
-            if view.window != nil {
             fetchImage()
-            }
+        
         }
     }
     
@@ -32,7 +31,8 @@ class ImageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(imageView)
-        imageURL = DemoURL.stanford
+        imageURL = URL(string: "http://imgur.com/gallery/qwYhk")!
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {

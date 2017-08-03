@@ -9,7 +9,7 @@ import Foundation
 
 struct DemoURL
 {
-    static let stanford = URL(string: "http://comm.stanford.edu/wp-content/uploads/2013/01/stanford-campus.png")
+    static let stanford = URL(string: "http://imgur.com/gallery/Nv8Bv")
 
     static let NASA = [
         "Cassini" : "http://www.jpl.nasa.gov/images/cassini/20090202/pia03883-full.jpg",
